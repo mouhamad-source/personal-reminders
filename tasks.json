@@ -1,0 +1,26 @@
+{
+  "default_tz": "Asia/Beirut",
+  "tasks": [
+    {
+      "id": "meds-morning",
+      "title": "Take medicine",
+      "repeat": "daily",
+      "time": "09:00",
+      "channels": ["email", "desktop"]
+    },
+    {
+      "id": "weekly-planning",
+      "title": "Weekly planning session",
+      "repeat": "weekly",
+      "days": ["Sun"],
+      "time": "20:30",
+      "channels": ["email", "desktop"]
+    },
+    {
+      "id": "renew-id",
+      "title": "Renew ID at office",
+      "when": "2025-08-20T10:00:00+03:00",
+      "channels": ["email"]
+    }
+  ]
+}
