@@ -5,7 +5,7 @@
       "id": "meds-morning",
       "title": "Take medicine",
       "repeat": "daily",
-      "time": "09:00",
+      "time": "12:00",
       "channels": ["email", "desktop"]
     },
     {
